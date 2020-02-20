@@ -1,0 +1,30 @@
+body{
+  overflow-x:hidden;
+
+}
+h1{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+p{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+a{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+
+.btn-hov {
+  padding: 6px 10px;
+  border-radius: 50px;
+  -webkit-transition: 0.2s time;
+  -moz-transition: 0.2s time;
+  -ms-transition: 0.2s time;
+  -o-transition: 0.2s time;
+  transition: 0.2s time;
+  &:hover {
+    transition: 0.2s;
+    border: #FFFFFF 1px solid;
+    text-decoration: none;
+  }
+}
